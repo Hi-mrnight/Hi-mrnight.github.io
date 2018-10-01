@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>MR.night</title>
   
-  
+  <subtitle>午夜先生</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>MR.night / Hans / 杨大侠</name>
+    <name>MR.night / Hans / 杨某</name>
     
   </author>
   
