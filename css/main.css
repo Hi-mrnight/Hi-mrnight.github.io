@@ -1857,7 +1857,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2413d4;
+  background: #e5aa4d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2608,6 +2608,6 @@ embed {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-star:before {
+.icon-moonstar:before {
   content: "\e61e";
 }

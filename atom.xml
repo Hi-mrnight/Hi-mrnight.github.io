@@ -6,47 +6,31 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-01T05:59:26.197Z</updated>
+  <updated>2018-10-10T01:53:59.672Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>MR.night / Hans / 杨某</name>
+    <name>MR.night</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>封印解除</title>
-    <link href="http://yoursite.com/2018/10/01/%E5%B0%81%E5%8D%B0%E8%A7%A3%E9%99%A4/"/>
-    <id>http://yoursite.com/2018/10/01/封印解除/</id>
-    <published>2018-10-01T03:21:10.000Z</published>
-    <updated>2018-10-01T05:59:26.197Z</updated>
+    <title>blogjiaoxue</title>
+    <link href="http://yoursite.com/2018/10/10/blogjiaoxue/"/>
+    <id>http://yoursite.com/2018/10/10/blogjiaoxue/</id>
+    <published>2018-10-10T01:51:33.000Z</published>
+    <updated>2018-10-10T01:53:59.672Z</updated>
     
-    <content type="html"><![CDATA[<p>没错<br>这就是一篇用来测试标签和分类的文档<br>只要不是helloworld，嘿嘿</p>]]></content>
+    <content type="html"><![CDATA[<p>hahahahahah<br>babaahah<br>hahdhaud<br>hauwdhwi<br><a id="more"></a><br>dadawdwadad<br>adawdawdawd<br>awdadawdaw</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;没错&lt;br&gt;这就是一篇用来测试标签和分类的文档&lt;br&gt;只要不是helloworld，嘿嘿&lt;/p&gt;
-
-      
+      &lt;p&gt;hahahahahah&lt;br&gt;babaahah&lt;br&gt;hahdhaud&lt;br&gt;hauwdhwi&lt;br&gt;
     
     </summary>
     
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
-    
-      <category term="故集" scheme="http://yoursite.com/categories/%E6%95%85%E9%9B%86/"/>
-    
-      <category term="Networks" scheme="http://yoursite.com/categories/Networks/"/>
-    
-    
-      <category term="Networks" scheme="http://yoursite.com/tags/Networks/"/>
-    
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
-    
-      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
