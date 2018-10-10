@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-10T01:53:59.672Z</updated>
+  <updated>2018-10-10T09:59:25.008Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,20 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>blogjiaoxue</title>
-    <link href="http://yoursite.com/2018/10/10/blogjiaoxue/"/>
-    <id>http://yoursite.com/2018/10/10/blogjiaoxue/</id>
-    <published>2018-10-10T01:51:33.000Z</published>
-    <updated>2018-10-10T01:53:59.672Z</updated>
+    <title>博客教学</title>
+    <link href="http://yoursite.com/2018/10/10/bokejiaoxue/"/>
+    <id>http://yoursite.com/2018/10/10/bokejiaoxue/</id>
+    <published>2018-10-10T09:42:05.000Z</published>
+    <updated>2018-10-10T09:59:25.008Z</updated>
     
-    <content type="html"><![CDATA[<p>hahahahahah<br>babaahah<br>hahdhaud<br>hauwdhwi<br><a id="more"></a><br>dadawdwadad<br>adawdawdawd<br>awdadawdaw</p>]]></content>
+    <content type="html"><![CDATA[<p>终于完成了博客的搭建，但是仍然有许多功能仍在完善中。。。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;hahahahahah&lt;br&gt;babaahah&lt;br&gt;hahdhaud&lt;br&gt;hauwdhwi&lt;br&gt;
+      
+      
+        &lt;p&gt;终于完成了博客的搭建，但是仍然有许多功能仍在完善中。。。&lt;/p&gt;
+
+      
     
     </summary>
     
+      <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Networks" scheme="http://yoursite.com/tags/Networks/"/>
+    
+      <category term="Linuxs" scheme="http://yoursite.com/tags/Linuxs/"/>
+    
+      <category term="教程" scheme="http://yoursite.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+    
+      <category term="Next" scheme="http://yoursite.com/tags/Next/"/>
+    
+      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
     
   </entry>
   
