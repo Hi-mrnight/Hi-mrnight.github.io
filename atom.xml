@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-10T09:59:25.008Z</updated>
+  <updated>2018-10-11T01:46:45.473Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试文章2</title>
+    <link href="http://yoursite.com/2018/10/11/test2/"/>
+    <id>http://yoursite.com/2018/10/11/test2/</id>
+    <published>2018-10-11T01:43:51.000Z</published>
+    <updated>2018-10-11T01:46:45.473Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一篇测试文章2</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是一篇测试文章2&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试文章1</title>
+    <link href="http://yoursite.com/2018/10/11/test1/"/>
+    <id>http://yoursite.com/2018/10/11/test1/</id>
+    <published>2018-10-11T01:43:47.000Z</published>
+    <updated>2018-10-11T01:46:25.634Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一篇测试文章1</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是一篇测试文章1&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>博客教学</title>

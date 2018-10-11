@@ -392,10 +392,14 @@
                     
                   
                 
-                目前共计 6 个标签
+                  
+                    
+                  
+                
+                目前共计 7 个标签
             </div>
             <div class="tag-cloud-tags">
-              <a href="/tags/Blog/" style="font-size: 12px; color: #ccc">Blog</a> <a href="/tags/Github/" style="font-size: 12px; color: #ccc">Github</a> <a href="/tags/Linuxs/" style="font-size: 12px; color: #ccc">Linuxs</a> <a href="/tags/Networks/" style="font-size: 12px; color: #ccc">Networks</a> <a href="/tags/Next/" style="font-size: 12px; color: #ccc">Next</a> <a href="/tags/教程/" style="font-size: 12px; color: #ccc">教程</a>
+              <a href="/tags/Blog/" style="font-size: 30px; color: #111">Blog</a> <a href="/tags/Github/" style="font-size: 12px; color: #ccc">Github</a> <a href="/tags/Linuxs/" style="font-size: 12px; color: #ccc">Linuxs</a> <a href="/tags/Networks/" style="font-size: 12px; color: #ccc">Networks</a> <a href="/tags/Next/" style="font-size: 12px; color: #ccc">Next</a> <a href="/tags/教程/" style="font-size: 12px; color: #ccc">教程</a> <a href="/tags/测试/" style="font-size: 21px; color: #6f6f6f">测试</a>
             </div>
           </div>
         
@@ -416,6 +420,11 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80MDI1MS8xNjc3OA=="></div>
+    </div>
 
   
 
@@ -459,7 +468,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -474,7 +483,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -499,7 +510,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -743,6 +756,20 @@
 
 
   
+    <script type="text/javascript">
+      window.livereOptions = {
+        refer: 'tags/index.html'
+      };
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
 
 
 
@@ -760,6 +787,75 @@
 
 
   
+
+  
+  <script>
+    
+    function showTime(Counter) {
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      Counter('get', '/classes/Counter', { where: JSON.stringify({ url: { "$in": entries } }) })
+        .done(function ({ results }) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.url;
+            var time = item.time;
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function ({ responseJSON }) {
+          console.log("LeanCloud Counter Error: " + responseJSON.code + " " + responseJSON.error);
+        });
+    }
+    
+
+    $(function() {
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + "N5YNHEEX5g5VAM0SlcxuRwco-gzGzoHsz")
+        .done(function ({ api_server }) {
+          var Counter = function (method, url, data) {
+            return $.ajax({
+              method: method,
+              url: `https://${api_server}/1.1${url}`,
+              headers: {
+                'X-LC-Id': "N5YNHEEX5g5VAM0SlcxuRwco-gzGzoHsz",
+                'X-LC-Key': "DRYWIpAiNbDqK876bS8TtBfF",
+                'Content-Type': 'application/json',
+              },
+              data: data,
+            });
+          };
+          
+          if ($('.post-title-link').length >= 1) {
+            showTime(Counter);
+          }
+          
+        })
+    });
+  </script>
+
+
 
   
 
